@@ -24,6 +24,7 @@ class String
   end
 
   def count_sentences
+    delimiters = ['.', "!", "?"]
     words = self.split(".")
     counts = words.count 
     return counts 
