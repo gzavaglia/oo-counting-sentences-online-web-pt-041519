@@ -25,7 +25,7 @@ class String
 
   def count_sentences
     words = self.split(" ")
-    return words.count 
+    counts = words.count 
     binding.pry 
   end
 end
