@@ -27,6 +27,7 @@ class String
     delimiters = ['.', "!", "?"]
     words = self.split(Regexp.union(delimiters))
     counts = words.count 
+    binding.pry 
     return counts 
   end
 end
