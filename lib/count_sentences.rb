@@ -26,6 +26,6 @@ class String
   def count_sentences
     words = self.split(". ", "!")
     counts = words.count 
-     
+    return counts 
   end
 end
